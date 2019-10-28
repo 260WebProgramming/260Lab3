@@ -7,10 +7,12 @@
     
     <body>
         <h1>Dog Finder</h1>
+        <p class="sub">Ever wondered what each do breed looks like? You've come to the right Place!!</p>
+        
         <div id="app">
             <form v-on:submit.prevent="findBreed">
                 <input v-model="inputBreed" placeholder="breed"/>
-                <input type="submit" value="Search"/>
+                <input class="bu" type="submit" value="Search"/>
                 <button v-on:click="listBreeds">List All Breeds</button>
             </form>
             <h2>{{currentBreed}}</h2>
@@ -21,10 +23,11 @@
 
             <br>
 
-            <div id="breeds">
+            <div class="list" id="breeds">
             </div>
         </div>
-        
+        <br>
+        <br>
         <div class="footer">
             <p><a href="https://github.com/BYU-CS-260-Winter-2019/lab-3-drowley4">Git Hub Link</a></p>
         </div>

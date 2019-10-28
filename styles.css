@@ -3,13 +3,34 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 5%;
-  background-color: black;
+  background-color: #795548;
   color: white;
   text-align: center;
 }
 
-img {
-  width: 100;
-  height: 100;
+body {
+  background-color: tan;
+}
+
+.sub {
+  font-size: 16pt;
+  color: #989898; 
+  font: bolder;
+}
+
+button {
+  background-color: tan;
+  border-radius: 25pt;
+  padding: 5px;
+}
+
+.bu {
+  background-color: tan;
+  border-radius: 25pt;
+  padding: 5px;
+}
+
+.list {
+  color: #3c3b3b;
+  font-size: 14pt;
 }
